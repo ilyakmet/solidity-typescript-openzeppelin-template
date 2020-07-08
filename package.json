@@ -1,0 +1,25 @@
+{
+  "name": "solidity-typescript-openzeppelin-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ilyakmet/solidity-typescript-openzeppelin-template.git",
+  "author": "ilyakmet <ilyakmet@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha -r ts-node/register ./test/**/*.test.ts --exit --recursive"
+  },
+  "devDependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/gsn-helpers": "^0.2.3",
+    "@openzeppelin/gsn-provider": "^0.1.10",
+    "@openzeppelin/test-environment": "^0.1.4",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-ethereum-package": "^3.0.0"
+  }
+}
